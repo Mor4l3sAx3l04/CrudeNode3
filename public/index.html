@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../app.js"></script>
+    <title>Gestión de Usuarios</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <a href="/obtenerUsuario">Obtener Usuarios</a>
+
+    <form action="/agregarUsuario" method="post">
+        <input type="text" name="id" placeholder="ID de Usuario">
+        <input type="text" name="nombre" placeholder="Nombre de Usuario">
+        <input type="submit" value="Agregar Usuario">
+    </form>
+
+    <form action="/borrarUsuario" method="post">
+        <input type="text" name="id" placeholder="Ingresa el ID">
+        <input type="submit" value="Borrar Usuario">
+    </form>
+
+    <form action="/modificarusuario" method="post">
+        <input type="text" name="id2" placeholder="ID a modificar">
+        <input type="text" name="nombre2" placeholder="Nuevo nombre">
+        <input type="submit" value="Modificar Usuario">
+    </form>
+
+</body>
+</html>

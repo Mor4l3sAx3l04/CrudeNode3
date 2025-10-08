@@ -1,0 +1,110 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo general */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Enlace */
+a {
+    color: #8e24aa;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 15px;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: #ab47bc;
+}
+
+/* Formulario general */
+form {
+    background-color: #ffffff;
+    padding: 15px 20px;
+    margin: 8px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.2);
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+/* Inputs */
+input[type="text"] {
+    padding: 8px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    background-color: #fafafa;
+    color: #333;
+    outline: none;
+    font-size: 14px;
+    transition: border 0.2s ease;
+}
+
+input[type="text"]::placeholder {
+    color: #999;
+}
+
+input[type="text"]:focus {
+    border: 1px solid #8e24aa;
+}
+
+/* Botones */
+input[type="submit"] {
+    background-color: #ff7043;
+    color: #fff;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    font-size: 14px;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff8a65;
+}
+
+/* Card */
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.25);
+    width: 320px;
+    margin: 25px auto;
+    text-align: center;
+}
+
+.card h1 {
+    color: #8e24aa;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 12px;
+    color: #8e24aa;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.card a:hover {
+    color: #ab47bc;
+}
