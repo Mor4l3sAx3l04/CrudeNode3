@@ -7,9 +7,9 @@
 
 /* Estilo general */
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #f4f4f9;
-    color: #333;
+    font-family: 'Poppins', Arial, sans-serif;
+    background-color: #fff0f6; /* rosado claro */
+    color: #4a4a4a;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,7 +18,7 @@ body {
 
 /* Enlace */
 a {
-    color: #8e24aa;
+    color: #d63384; /* rosa fuerte */
     text-decoration: none;
     font-weight: bold;
     margin-bottom: 15px;
@@ -26,17 +26,17 @@ a {
 }
 
 a:hover {
-    color: #ab47bc;
+    color: #e7549c;
 }
 
 /* Formulario general */
 form {
     background-color: #ffffff;
-    padding: 15px 20px;
-    margin: 8px 0;
-    border-radius: 8px;
-    box-shadow: 0 0 6px rgba(0,0,0,0.2);
-    width: 260px;
+    padding: 15px 18px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(214, 51, 132, 0.2);
+    width: 270px;
     display: flex;
     flex-direction: column;
     gap: 6px;
@@ -45,30 +45,31 @@ form {
 /* Inputs */
 input[type="text"] {
     padding: 8px;
-    border: 1px solid #bbb;
-    border-radius: 4px;
-    background-color: #fafafa;
+    border: 1px solid #e1a9c6;
+    border-radius: 6px;
+    background-color: #fff5f9;
     color: #333;
     outline: none;
     font-size: 14px;
-    transition: border 0.2s ease;
+    transition: border 0.2s ease, background-color 0.2s ease;
 }
 
 input[type="text"]::placeholder {
-    color: #999;
+    color: #b76e91;
 }
 
 input[type="text"]:focus {
-    border: 1px solid #8e24aa;
+    border: 1px solid #d63384;
+    background-color: #ffe6f1;
 }
 
 /* Botones */
 input[type="submit"] {
-    background-color: #ff7043;
+    background-color: #d63384;
     color: #fff;
-    padding: 8px;
+    padding: 9px;
     border: none;
-    border-radius: 4px;
+    border-radius: 6px;
     font-weight: bold;
     cursor: pointer;
     transition: background-color 0.2s ease;
@@ -76,22 +77,22 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #ff8a65;
+    background-color: #e7549c;
 }
 
 /* Card */
 .card {
     background-color: #fff;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.25);
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(214, 51, 132, 0.25);
     width: 320px;
     margin: 25px auto;
     text-align: center;
 }
 
 .card h1 {
-    color: #8e24aa;
+    color: #9c27b0; /* lila */
     margin-bottom: 10px;
     font-size: 20px;
 }
@@ -99,12 +100,12 @@ input[type="submit"]:hover {
 .card a {
     display: inline-block;
     margin-top: 12px;
-    color: #8e24aa;
+    color: #d63384;
     text-decoration: none;
     font-weight: bold;
     font-size: 14px;
 }
 
 .card a:hover {
-    color: #ab47bc;
+    color: #e7549c;
 }
